@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4954DF8C25FDBAE6007EA2BA /* MediumMaterialDesignButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954DF8B25FDBAE6007EA2BA /* MediumMaterialDesignButtonApp.swift */; };
+		4954DF8E25FDBAE6007EA2BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954DF8D25FDBAE6007EA2BA /* ContentView.swift */; };
+		4954DF9025FDBAE7007EA2BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4954DF8F25FDBAE7007EA2BA /* Assets.xcassets */; };
+		4954DF9325FDBAE7007EA2BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4954DF9225FDBAE7007EA2BA /* Preview Assets.xcassets */; };
+		4954DF9C25FDBAFB007EA2BA /* MaterialButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4954DF9B25FDBAFB007EA2BA /* MaterialButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4954DF8825FDBAE6007EA2BA /* MediumMaterialDesignButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumMaterialDesignButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4954DF8B25FDBAE6007EA2BA /* MediumMaterialDesignButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumMaterialDesignButtonApp.swift; sourceTree = "<group>"; };
+		4954DF8D25FDBAE6007EA2BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4954DF8F25FDBAE7007EA2BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4954DF9225FDBAE7007EA2BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4954DF9425FDBAE7007EA2BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4954DF9B25FDBAFB007EA2BA /* MaterialButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4954DF8525FDBAE6007EA2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4954DF7F25FDBAE6007EA2BA = {
+			isa = PBXGroup;
+			children = (
+				4954DF8A25FDBAE6007EA2BA /* MediumMaterialDesignButton */,
+				4954DF8925FDBAE6007EA2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4954DF8925FDBAE6007EA2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4954DF8825FDBAE6007EA2BA /* MediumMaterialDesignButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4954DF8A25FDBAE6007EA2BA /* MediumMaterialDesignButton */ = {
+			isa = PBXGroup;
+			children = (
+				4954DF8B25FDBAE6007EA2BA /* MediumMaterialDesignButtonApp.swift */,
+				4954DF9B25FDBAFB007EA2BA /* MaterialButtonStyle.swift */,
+				4954DF8D25FDBAE6007EA2BA /* ContentView.swift */,
+				4954DF8F25FDBAE7007EA2BA /* Assets.xcassets */,
+				4954DF9425FDBAE7007EA2BA /* Info.plist */,
+				4954DF9125FDBAE7007EA2BA /* Preview Content */,
+			);
+			path = MediumMaterialDesignButton;
+			sourceTree = "<group>";
+		};
+		4954DF9125FDBAE7007EA2BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4954DF9225FDBAE7007EA2BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4954DF8725FDBAE6007EA2BA /* MediumMaterialDesignButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4954DF9725FDBAE7007EA2BA /* Build configuration list for PBXNativeTarget "MediumMaterialDesignButton" */;
+			buildPhases = (
+				4954DF8425FDBAE6007EA2BA /* Sources */,
+				4954DF8525FDBAE6007EA2BA /* Frameworks */,
+				4954DF8625FDBAE6007EA2BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediumMaterialDesignButton;
+			productName = MediumMaterialDesignButton;
+			productReference = 4954DF8825FDBAE6007EA2BA /* MediumMaterialDesignButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4954DF8025FDBAE6007EA2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4954DF8725FDBAE6007EA2BA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4954DF8325FDBAE6007EA2BA /* Build configuration list for PBXProject "MediumMaterialDesignButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4954DF7F25FDBAE6007EA2BA;
+			productRefGroup = 4954DF8925FDBAE6007EA2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4954DF8725FDBAE6007EA2BA /* MediumMaterialDesignButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4954DF8625FDBAE6007EA2BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954DF9325FDBAE7007EA2BA /* Preview Assets.xcassets in Resources */,
+				4954DF9025FDBAE7007EA2BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4954DF8425FDBAE6007EA2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4954DF8E25FDBAE6007EA2BA /* ContentView.swift in Sources */,
+				4954DF8C25FDBAE6007EA2BA /* MediumMaterialDesignButtonApp.swift in Sources */,
+				4954DF9C25FDBAFB007EA2BA /* MaterialButtonStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4954DF9525FDBAE7007EA2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4954DF9625FDBAE7007EA2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4954DF9825FDBAE7007EA2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediumMaterialDesignButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RTG95T48T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MediumMaterialDesignButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hk.com.waterworld.MediumMaterialDesignButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4954DF9925FDBAE7007EA2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MediumMaterialDesignButton/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RTG95T48T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MediumMaterialDesignButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hk.com.waterworld.MediumMaterialDesignButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4954DF8325FDBAE6007EA2BA /* Build configuration list for PBXProject "MediumMaterialDesignButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4954DF9525FDBAE7007EA2BA /* Debug */,
+				4954DF9625FDBAE7007EA2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4954DF9725FDBAE7007EA2BA /* Build configuration list for PBXNativeTarget "MediumMaterialDesignButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4954DF9825FDBAE7007EA2BA /* Debug */,
+				4954DF9925FDBAE7007EA2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4954DF8025FDBAE6007EA2BA /* Project object */;
+}
